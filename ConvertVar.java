@@ -7,8 +7,10 @@ public class ConvertVar {
             Scanner scnNum = new Scanner(System.in);
             int intVar = Integer.valueOf(scnNum.nextLine());
             System.out.println("O número digitado é: " + intVar);
+            scnNum.close();
         } catch (Exception e) {
             System.out.println("Ops! Você não digitou um número. Tente novamente");
         }
+        
     }
 }
